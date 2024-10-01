@@ -15,7 +15,9 @@ const AddTransaction = () => {
       amount : +amount // or use parseInt as amount is string
     }
 
-    addTransaction(newTransaction)
+    addTransaction(newTransaction);
+    setAmount(0);
+    setText('')
   }
   return (
     <>
